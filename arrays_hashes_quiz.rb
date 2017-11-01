@@ -140,14 +140,22 @@ users = {
 # p users["Avril"][:pets]["colin"]
 ### DONE -----------------------------------------------------------
 
+### DONE -----------------------------------------------------------
 # 5. Return the smallest of Erik's favourite numbers
-p users["Erik"][:favourite_numbers]
+# p users["Erik"][:favourite_numbers].min
+### DONE -----------------------------------------------------------
 
-
+### DONE -----------------------------------------------------------
 # 6. Add the number `7` to Erik's favourite numbers
+# p users["Erik"][:favourite_numbers] << 7
+### DONE -----------------------------------------------------------
 
 # 7. Change Erik's hometown to Edinburgh
+# p users["Erik"][:home_town].update("Edinburgh")
 
+### DONE -----------------------------------------------------------
 # 8. Add a pet dog to Erik called "Fluffy"
+# p users["Erik"][:pets].merge({"Fluffy" => :dog})
+### DONE -----------------------------------------------------------
 
 # 9. Add yourself to the users hash
