@@ -148,6 +148,7 @@ users = {
 ### DONE -----------------------------------------------------------
 # 6. Add the number `7` to Erik's favourite numbers
 # p users["Erik"][:favourite_numbers] << 7
+#potentially use .unshift(7) instead
 ### DONE -----------------------------------------------------------
 
 ### DONE -----------------------------------------------------------
@@ -159,6 +160,7 @@ users = {
 ### DONE -----------------------------------------------------------
 # 8. Add a pet dog to Erik called "Fluffy"
 # p users["Erik"][:pets].merge({"Fluffy" => :dog})
+# ALTERNATIVELY users["Erik"][:pets]["fluffy"] = :dog
 ### DONE -----------------------------------------------------------
 
 ### DONE -----------------------------------------------------------
@@ -168,3 +170,6 @@ users = {
 ### DONE -----------------------------------------------------------
 # Not 100% on the one above - wouldn't work without the empty_symbol as
 # a value.
+
+# YOU CAN ADD A HASH WITH A NAME, THEN RUN THAT NAME AS A VALUE AFTER users["Eliot"] = hashname
+#THIS WILL DO THE SAME MERGE AS #9
